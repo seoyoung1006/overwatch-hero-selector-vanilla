@@ -1,11 +1,18 @@
-.container {
+body {
+  height: 100vh;
+  background-image: url("./image/bg.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 
+.container {
+  padding: 50px 0px;
 }
 
 .container .heros {
   display: flex;
   flex-wrap: wrap;
-  background-color: orange;
   justify-content: center;
   max-width: 700px;
   margin: auto;
@@ -76,3 +83,13 @@
 
 .container .heros .hero:nth-child(31) .image {background-image: url("./image/hero31.png");}
 .container .heros .hero:nth-child(32) .image {background-image: url("./image/hero32.png");}
+
+.container .logo {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.container .logo img {
+  width: 100%;
+}
